@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextView *crashtext;
+
+@property (weak, nonatomic) IBOutlet UILabel *iosvers;
 
 @end
 

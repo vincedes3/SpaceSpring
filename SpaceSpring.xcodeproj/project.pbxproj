@@ -15,6 +15,11 @@
 		EB5362751E79FC6900F9BCA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5362731E79FC6900F9BCA0 /* LaunchScreen.storyboard */; };
 		EB5362801E79FC6900F9BCA0 /* SpaceSpringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53627F1E79FC6900F9BCA0 /* SpaceSpringTests.m */; };
 		EB53628B1E79FC6900F9BCA0 /* SpaceSpringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53628A1E79FC6900F9BCA0 /* SpaceSpringUITests.m */; };
+		EB5362991E79FCA700F9BCA0 /* vincedes3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB5362981E79FCA700F9BCA0 /* vincedes3.jpg */; };
+		EB5362A31E7A050B00F9BCA0 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB53629B1E79FD6500F9BCA0 /* NotificationCenter.framework */; };
+		EB5362A71E7A050B00F9BCA0 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5362A61E7A050B00F9BCA0 /* TodayViewController.m */; };
+		EB5362AA1E7A050B00F9BCA0 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5362A81E7A050B00F9BCA0 /* MainInterface.storyboard */; };
+		EB5362AE1E7A050B00F9BCA0 /* SpaceSpringWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EB5362A21E7A050B00F9BCA0 /* SpaceSpringWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +37,28 @@
 			remoteGlobalIDString = EB5362611E79FC6900F9BCA0;
 			remoteInfo = SpaceSpring;
 		};
+		EB5362AC1E7A050B00F9BCA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB53625A1E79FC6800F9BCA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB5362A11E7A050B00F9BCA0;
+			remoteInfo = SpaceSpringWidget;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB5362B21E7A050B00F9BCA0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EB5362AE1E7A050B00F9BCA0 /* SpaceSpringWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EB5362621E79FC6900F9BCA0 /* SpaceSpring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceSpring.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +77,16 @@
 		EB5362861E79FC6900F9BCA0 /* SpaceSpringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceSpringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB53628A1E79FC6900F9BCA0 /* SpaceSpringUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceSpringUITests.m; sourceTree = "<group>"; };
 		EB53628C1E79FC6900F9BCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB5362981E79FCA700F9BCA0 /* vincedes3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vincedes3.jpg; sourceTree = "<group>"; };
+		EB53629B1E79FD6500F9BCA0 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		EB5362A21E7A050B00F9BCA0 /* SpaceSpringWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SpaceSpringWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5362A51E7A050B00F9BCA0 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		EB5362A61E7A050B00F9BCA0 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		EB5362A91E7A050B00F9BCA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		EB5362AB1E7A050B00F9BCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD6A6C01E8AF00200C29E58 /* SpaceSpring.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpaceSpring.entitlements; sourceTree = "<group>"; };
+		EBD6A6C31E8AF5FF00C29E58 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EBD6A6C51E8AF60B00C29E58 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +111,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EB53629F1E7A050B00F9BCA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5362A31E7A050B00F9BCA0 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,7 +128,9 @@
 				EB5362641E79FC6900F9BCA0 /* SpaceSpring */,
 				EB53627E1E79FC6900F9BCA0 /* SpaceSpringTests */,
 				EB5362891E79FC6900F9BCA0 /* SpaceSpringUITests */,
+				EB5362A41E7A050B00F9BCA0 /* SpaceSpringWidget */,
 				EB5362631E79FC6900F9BCA0 /* Products */,
+				EB53629A1E79FD6500F9BCA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +140,7 @@
 				EB5362621E79FC6900F9BCA0 /* SpaceSpring.app */,
 				EB53627B1E79FC6900F9BCA0 /* SpaceSpringTests.xctest */,
 				EB5362861E79FC6900F9BCA0 /* SpaceSpringUITests.xctest */,
+				EB5362A21E7A050B00F9BCA0 /* SpaceSpringWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +148,8 @@
 		EB5362641E79FC6900F9BCA0 /* SpaceSpring */ = {
 			isa = PBXGroup;
 			children = (
+				EBD6A6C01E8AF00200C29E58 /* SpaceSpring.entitlements */,
+				EB5362981E79FCA700F9BCA0 /* vincedes3.jpg */,
 				EB5362681E79FC6900F9BCA0 /* AppDelegate.h */,
 				EB5362691E79FC6900F9BCA0 /* AppDelegate.m */,
 				EB53626B1E79FC6900F9BCA0 /* ViewController.h */,
@@ -140,6 +189,27 @@
 			path = SpaceSpringUITests;
 			sourceTree = "<group>";
 		};
+		EB53629A1E79FD6500F9BCA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBD6A6C51E8AF60B00C29E58 /* libstdc++.tbd */,
+				EBD6A6C31E8AF5FF00C29E58 /* libz.tbd */,
+				EB53629B1E79FD6500F9BCA0 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB5362A41E7A050B00F9BCA0 /* SpaceSpringWidget */ = {
+			isa = PBXGroup;
+			children = (
+				EB5362A51E7A050B00F9BCA0 /* TodayViewController.h */,
+				EB5362A61E7A050B00F9BCA0 /* TodayViewController.m */,
+				EB5362A81E7A050B00F9BCA0 /* MainInterface.storyboard */,
+				EB5362AB1E7A050B00F9BCA0 /* Info.plist */,
+			);
+			path = SpaceSpringWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,10 +220,12 @@
 				EB53625E1E79FC6900F9BCA0 /* Sources */,
 				EB53625F1E79FC6900F9BCA0 /* Frameworks */,
 				EB5362601E79FC6900F9BCA0 /* Resources */,
+				EB5362B21E7A050B00F9BCA0 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EB5362AD1E7A050B00F9BCA0 /* PBXTargetDependency */,
 			);
 			name = SpaceSpring;
 			productName = SpaceSpring;
@@ -196,6 +268,23 @@
 			productReference = EB5362861E79FC6900F9BCA0 /* SpaceSpringUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		EB5362A11E7A050B00F9BCA0 /* SpaceSpringWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB5362AF1E7A050B00F9BCA0 /* Build configuration list for PBXNativeTarget "SpaceSpringWidget" */;
+			buildPhases = (
+				EB53629E1E7A050B00F9BCA0 /* Sources */,
+				EB53629F1E7A050B00F9BCA0 /* Frameworks */,
+				EB5362A01E7A050B00F9BCA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceSpringWidget;
+			productName = SpaceSpringWidget;
+			productReference = EB5362A21E7A050B00F9BCA0 /* SpaceSpringWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,8 +296,13 @@
 				TargetAttributes = {
 					EB5362611E79FC6900F9BCA0 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = S8X28GJNZV;
+						DevelopmentTeam = 9L7DJA7FBZ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					EB53627A1E79FC6900F9BCA0 = {
 						CreatedOnToolsVersion = 8.3;
@@ -221,6 +315,11 @@
 						DevelopmentTeam = S8X28GJNZV;
 						ProvisioningStyle = Automatic;
 						TestTargetID = EB5362611E79FC6900F9BCA0;
+					};
+					EB5362A11E7A050B00F9BCA0 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 9L7DJA7FBZ;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -240,6 +339,7 @@
 				EB5362611E79FC6900F9BCA0 /* SpaceSpring */,
 				EB53627A1E79FC6900F9BCA0 /* SpaceSpringTests */,
 				EB5362851E79FC6900F9BCA0 /* SpaceSpringUITests */,
+				EB5362A11E7A050B00F9BCA0 /* SpaceSpringWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +349,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB5362991E79FCA700F9BCA0 /* vincedes3.jpg in Resources */,
 				EB5362751E79FC6900F9BCA0 /* LaunchScreen.storyboard in Resources */,
 				EB5362721E79FC6900F9BCA0 /* Assets.xcassets in Resources */,
 				EB5362701E79FC6900F9BCA0 /* Main.storyboard in Resources */,
@@ -266,6 +367,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5362A01E7A050B00F9BCA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5362AA1E7A050B00F9BCA0 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +407,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EB53629E1E7A050B00F9BCA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5362A71E7A050B00F9BCA0 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -310,6 +427,11 @@
 			isa = PBXTargetDependency;
 			target = EB5362611E79FC6900F9BCA0 /* SpaceSpring */;
 			targetProxy = EB5362871E79FC6900F9BCA0 /* PBXContainerItemProxy */;
+		};
+		EB5362AD1E7A050B00F9BCA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB5362A11E7A050B00F9BCA0 /* SpaceSpringWidget */;
+			targetProxy = EB5362AC1E7A050B00F9BCA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -328,6 +450,14 @@
 				EB5362741E79FC6900F9BCA0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EB5362A81E7A050B00F9BCA0 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB5362A91E7A050B00F9BCA0 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -427,11 +557,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S8X28GJNZV;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9L7DJA7FBZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpaceSpring",
+				);
 				INFOPLIST_FILE = SpaceSpring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vincedes3.SpaceSpring;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincedes3.spacespring-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -439,11 +576,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S8X28GJNZV;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9L7DJA7FBZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpaceSpring",
+				);
 				INFOPLIST_FILE = SpaceSpring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vincedes3.SpaceSpring;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincedes3.spacespring-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -497,6 +641,30 @@
 			};
 			name = Release;
 		};
+		EB5362B01E7A050B00F9BCA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9L7DJA7FBZ;
+				INFOPLIST_FILE = SpaceSpringWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincedes3.spacespring-.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EB5362B11E7A050B00F9BCA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9L7DJA7FBZ;
+				INFOPLIST_FILE = SpaceSpringWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincedes3.spacespring-.widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,6 +684,7 @@
 				EB5362911E79FC6900F9BCA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB5362921E79FC6900F9BCA0 /* Build configuration list for PBXNativeTarget "SpaceSpringTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +693,7 @@
 				EB5362941E79FC6900F9BCA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB5362951E79FC6900F9BCA0 /* Build configuration list for PBXNativeTarget "SpaceSpringUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +702,16 @@
 				EB5362971E79FC6900F9BCA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB5362AF1E7A050B00F9BCA0 /* Build configuration list for PBXNativeTarget "SpaceSpringWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5362B01E7A050B00F9BCA0 /* Debug */,
+				EB5362B11E7A050B00F9BCA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
